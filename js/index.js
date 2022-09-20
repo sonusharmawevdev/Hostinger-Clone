@@ -2,7 +2,7 @@ const notifyBar = document.querySelector(".notification-bar");
 const header = document.querySelector(".header");
 
 toggleNotifyClose = () => {
-  notifyBar.style.display = "none";
+  // notifyBar.style.display = "none";
   header.classList.add("is_notifyClose");
 };
 
@@ -37,5 +37,3 @@ langBtn = () => {
 //swaper
 
 // Aos
-
-
