@@ -851,6 +851,8 @@ a:focus {
         pointer-events: all;
         transition: all 0.3s linear;
         transform: translateX(0);
+        background-color: var(--dark);
+        z-index: 9000;
     }
 
     .is_MobileIcon.mobile-btn ion-icon[name="menu"] {
